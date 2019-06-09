@@ -214,6 +214,7 @@ spec:
       containers:
       - name: front-end
         image: extremitz/front-end:latest
+        imagePullPolicy: Always
         resources:
           requests:
             cpu: 100m
