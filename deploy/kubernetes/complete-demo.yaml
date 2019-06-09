@@ -213,7 +213,7 @@ spec:
     spec:
       containers:
       - name: front-end
-        image: extremitz/front-end:master-7d431689
+        image: extremitz/front-end:latest
         resources:
           requests:
             cpu: 100m
